@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background: url(./img/desktop.jpg);
+    
+}
+
+h1{
+    font-family: 'Xanh Mono', monospace;
+    color: white;
+    background: black;
+}
+ul{
+    background-image: url(./img/fondo.jpg);
+    border: 1px solid grey;
+    border-radius: 20px;
+    color: black;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    padding: 0;
+}
+
+.first-li{
+    list-style: none;
+    border-bottom: 3px solid #000000;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 21px;
+    
+}
+
+.first-input{
+    font-family: 'Pacifico', cursive;
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+    padding-left: 20px;
+  }
+
+li{ 
+    list-style: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: 'Pacifico', cursive;
+
+ }
+
+ input {
+    width: 100%;
+    border: 0;
+    background: none;
+    outline: none;
+}
+
+.boton{
+    background: none;
+    border-radius: 30px;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    margin-left: 20px;
+    border: 0px;
+    color: red;
+    font-size: 13px;
+}
+
+.button:hover {
+    padding-right: 25px;
+  }
+  
+  .button:hover:after {
+    opacity: 1;
+    right: 0;
+  }
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
